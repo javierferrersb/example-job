@@ -14,6 +14,7 @@ const lorem = new LoremIpsum({
 
 console.log(
   "This is a test. The result is in the standard output.",
+  process.argv,
   lorem.generateParagraphs(7)
 );
 
